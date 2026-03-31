@@ -4,11 +4,11 @@ import { ClapperboardIcon } from './Logos';
 
 export function VideoSection() {
   const videos = [
-    { id: 'highlight', label: 'Smart Highlighting', src: '/assets/highlight.mp4' },
-    { id: 'colors', label: 'Color Coding', src: '/assets/highlight_different_colors.mp4' },
-    { id: 'panel', label: 'Markdown Panel', src: '/assets/notes_panel.mp4' },
-    { id: 'captions', label: 'Rich Captions', src: '/assets/notes_captions.mp4' },
-    { id: 'open', label: 'Fast Loading', src: '/assets/open.mp4' },
+    { id: 'highlight', label: 'Smart Highlighting', src: `${import.meta.env.BASE_URL}assets/highlight.mp4` },
+    { id: 'colors', label: 'Color Coding', src: `${import.meta.env.BASE_URL}assets/highlight_different_colors.mp4` },
+    { id: 'panel', label: 'Markdown Panel', src: `${import.meta.env.BASE_URL}assets/notes_panel.mp4` },
+    { id: 'captions', label: 'Rich Captions', src: `${import.meta.env.BASE_URL}assets/notes_captions.mp4` },
+    { id: 'open', label: 'Fast Loading', src: `${import.meta.env.BASE_URL}assets/open.mp4` },
   ];
 
   const videoRef = useRef<HTMLVideoElement>(null);
