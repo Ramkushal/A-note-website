@@ -13,8 +13,8 @@ export function Download() {
   const handleDownload = () => {
     setClicked(true);
     const link = document.createElement('a');
-    link.href = `${import.meta.env.BASE_URL}A'note.exe`;
-    link.download = "A'note.exe";
+    link.href = `${import.meta.env.BASE_URL}A-note-Setup.exe`;
+    link.download = "A-note-Setup.exe";
     link.click();
     setTimeout(() => setClicked(false), 3000);
   };
