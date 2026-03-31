@@ -13,8 +13,8 @@ export function Download() {
   const handleDownload = () => {
     setClicked(true);
     const link = document.createElement('a');
-    link.href = `${import.meta.env.BASE_URL}A-note-Setup.exe`;
-    link.download = "A-note-Setup.exe";
+    // Fetching directly from GitHub Releases to bypass the 100MB Git limit
+    link.href = `https://github.com/Ramkushal/A-note-website/releases/latest/download/A-note-Setup.exe`;
     link.click();
     setTimeout(() => setClicked(false), 3000);
   };
