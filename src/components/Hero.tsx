@@ -13,7 +13,7 @@ export function Hero() {
 
       {/* Headline */}
       <h1 className="animate-fade-up delay-200 text-5xl md:text-7xl font-black tracking-tight leading-[1.1] mb-5">
-        <span className="block" style={{ color: '#1e3a8a' }}>A'note</span>
+        <span className="block" style={{ color: '#22C55E' }}>A'<span style={{ color: '#2563eb' }}>note</span></span>
         <span className="gradient-text block">built for professionals.</span>
       </h1>
 
@@ -62,7 +62,7 @@ export function Hero() {
       </div>
 
       {/* App Screenshot */}
-      <div className="animate-fade-up delay-600 mt-20 w-full max-w-5xl rounded-2xl overflow-hidden" 
+      <div className="animate-fade-up delay-600 mt-20 w-full max-w-5xl rounded-2xl overflow-hidden"
         style={{ border: '1px solid #e2e8f0', boxShadow: '0 25px 50px -12px rgba(37, 99, 235, 0.25)' }}>
         <img src={`${import.meta.env.BASE_URL}assets/Screenshot 2026-03-31 142548.png`} alt="A'note Interface" className="w-full h-auto object-cover" />
       </div>

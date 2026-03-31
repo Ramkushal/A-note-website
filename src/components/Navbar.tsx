@@ -8,7 +8,7 @@ export function Navbar() {
       {/* Brand */}
       <div className="flex items-center gap-2.5">
 
-        <span className="font-bold text-[15px] tracking-tight" style={{ color: '#1e3a8a' }}>
+        <span className="font-bold text-[15px] tracking-tight" style={{ color: '#22C55E' }}>
           A'<span style={{ color: '#2563eb' }}>note</span>
         </span>
       </div>

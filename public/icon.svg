@@ -1,0 +1,20 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grey background -->
+  <rect width="256" height="256" rx="40" fill="#343333ff"/>
+
+  <!-- Green "A" -->
+  <text x="8" y="232"
+    font-size="248"
+    font-family="Inter, Arial"
+    fill="#22C55E"
+    font-weight="900">A</text>
+
+  <!-- Green apostrophe -->
+  <text x="186" y="88"
+    font-size="128"
+    font-family="Inter, Arial"
+    fill="#22C55E"
+    font-weight="900">'</text>
+
+</svg>
