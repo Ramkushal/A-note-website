@@ -40,7 +40,7 @@ export function Download() {
           <div className="flex items-center justify-center gap-2 mb-6">
             <span className="px-3 py-1 rounded-full text-xs font-mono font-semibold"
               style={{ background: '#f0f4ff', border: '1px solid #dbeafe', color: '#1e3a8a' }}>
-              A'note v1.0.0
+              A'note v1.1.0
             </span>
             <span className="px-3 py-1 rounded-full text-xs font-semibold"
               style={{ background: '#d1fae5', border: '1px solid #a7f3d0', color: '#059669' }}>

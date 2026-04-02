@@ -8,7 +8,7 @@ export function Hero() {
       <div className="animate-fade-up delay-100 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold mb-6"
         style={{ background: '#eff6ff', border: '1px solid #bfdbfe', color: '#2563eb' }}>
         <span className="w-2 h-2 rounded-full flex-shrink-0 pulse-badge" style={{ background: '#2563eb' }} />
-        v1.0.0 — Now Available for Windows
+        v1.1.0 — Now Available for Windows
       </div>
 
       {/* Headline */}

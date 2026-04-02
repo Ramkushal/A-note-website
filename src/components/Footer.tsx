@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <div>
             <div className="font-bold text-sm" style={{ color: '#22C55E' }}>A'<span style={{ color: '#2563eb' }}>note</span></div>
-            <div className="text-xs" style={{ color: '#94a3b8' }}>v1.0.0 · Windows x64</div>
+            <div className="text-xs" style={{ color: '#94a3b8' }}>v1.1.0 · Windows x64</div>
           </div>
         </div>
 

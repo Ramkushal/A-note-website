@@ -115,7 +115,7 @@ export function VideoSection() {
         </div>
 
         <p className="text-center text-sm mt-5" style={{ color: '#94a3b8' }}>
-          Full demo of A'note v1.0.0 — highlight, annotate and export in real time
+          Full demo of A'note v1.1.0 — highlight, annotate and export in real time
         </p>
       </div>
     </section>
